@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form action="InputManager" method="POST">
+            <h3>Integrals Calculator</h3>
+            <input type="radio" id="trapezoidal" name="method" value="1">
+            <label for="trapezoidal">Trapezoidal</label><br>
+            <input type="radio" id="rectangles" name="method" value="2">
+            <label for="rectangles">Rectangles</label><br>
+            
+            <label for="begin">Beginning of an integration:</label><br>
+            <input type="text" name="begin" id="begin" /><br>
+            <label for="end">End of an integration:</label><br>
+            <input type="text" name="end" id="end" /><br>
+
+            <label for="function">Integrated function:</label><br>
+            <input type="text" name="function" id="function" /><br>
+            
+            <input type="submit" value="Calculate" /><br>
+            *Note that beginning and end of an integration should be int.<br>
+            In function field type only: "+","-","*","/" as operands, "x" as variable and "." as decimal separator.
+        </form>
+        <hr>
+        <form action="LastCalculations" method="GET">
+            <label for="rowsCount">Desired number of rows to display:</label><br>
+            <input type="text" name="rowsCount" id="rowsCount"/><br>
+            <input type="submit" value="Show last calculations" />
+        </form>
+    </body>
+</html>

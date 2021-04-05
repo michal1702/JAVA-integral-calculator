@@ -1,0 +1,14 @@
+pl\polsl\servlets\LastCalculations.class
+pl\polsl\servlets\InputManager.class
+pl\polsl\model\Calculator$doubleMath.class
+pl\polsl\entities\Calculation_.class
+pl\polsl\exceptions\RangeException.class
+pl\polsl\entities\Calculation.class
+pl\polsl\view\OutputManager.class
+pl\polsl\model\StringEvaluator.class
+pl\polsl\entities\CalcHistoryRecord.class
+pl\polsl\model\TrapezoidalMethodCalculator.class
+pl\polsl\model\Calculator.class
+pl\polsl\entities\CalcHistoryRecord_.class
+pl\polsl\controller\InputVerifier.class
+pl\polsl\model\RectanglesMethodCalculator.class
